@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section">
+        <div class="background-div">
+            <div class="main">
+                <h3>DIGITAL CLOCK</h3>
+                <div id="clock">
+                    <div id="hour">
+                        <span></span>
+                        <span>HOURS</span>
+                    </div>
+                    <div id="minute">
+                        <span></span>
+                        <span>MINUTES</span>
+                    </div>
+                    <div id="second">
+                        <span></span>
+                        <span>SECONDS</span>
+                    </div>
+                    <div id="am-pm">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="format">
+                <div class="hour-24" onclick="twentyFourFormat()">24 hr</div>
+                <div class="hour-12" onclick="twelveFormat()">12 hr</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
